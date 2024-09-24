@@ -5,6 +5,7 @@ import About from "../pages/About";
 import Blog from "../pages/Blog";
 import FAQ from "../pages/FAQ";
 import NotFound from "../pages/NotFound";
+import BookDetails from "../components/BookDetails";
 import books from "../utils/books-data.json";
 
 const AppRouter = () => {
@@ -12,10 +13,11 @@ const AppRouter = () => {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home books={books} />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/book/:bookId" element={<BookDetails books={books} />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

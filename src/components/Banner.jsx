@@ -14,7 +14,7 @@ const Banner = () => {
         <img
           src="./banner-library.jpg"
           alt="Book Banner"
-          className="w-full md:w-1/2 h-auto md:h-96  p-[2px]"
+          className="w-full md:w-1/2 h-auto md:h-96 pt-[2px]"
         />
       </div>
     </div>
