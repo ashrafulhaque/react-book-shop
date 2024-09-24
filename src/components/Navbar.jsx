@@ -13,7 +13,9 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-800 py-4">
       <div className="container mx-auto px-8 sm:px-16 flex justify-between items-center">
-        <div className="text-white text-xl font-bold">Book Shop</div>
+        <NavLink to="/" className="logo">
+          <span className="text-white text-xl font-bold">React Book Shop</span>
+        </NavLink>
 
         {/* Mobile menu button */}
         <button
