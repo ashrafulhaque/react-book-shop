@@ -1,11 +1,10 @@
-import { useState } from "react";
-import "./App.css";
+import AppRouter from "./routes/AppRouter";
 
 function App() {
   return (
-    <>
-      <h1>REACT BOOK STORE</h1>
-    </>
+    <div>
+      <AppRouter />
+    </div>
   );
 }
 
