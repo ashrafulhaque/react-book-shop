@@ -12,7 +12,7 @@ const Footer = () => {
               className="w-20"
             />
             <h3 className="text-lg font-bold mb-4">React Book Shop</h3>
-            <p>© 2024 Md. Ashraful Haque. All rights reserved.</p>
+            <p>© 2024 Md. Ashraful Haque. All Rights Reserved.</p>
           </div>
           <div>
             <h3 className="text-lg font-bold mb-4">Quick Links</h3>
