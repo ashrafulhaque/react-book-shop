@@ -1,5 +1,6 @@
 import Banner from "../components/Banner";
 import BookCard from "../components/BookCard";
+import Footer from "../components/Footer";
 import books from "../utils/books-data.json";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
