@@ -6,7 +6,11 @@ const Footer = () => {
       <div className="container mx-auto px-8 sm:px-16">
         <div className="flex flex-col md:flex-row justify-between space-y-8 md:space-y-0">
           <div>
-            <img src="./book-shop-logo.png" alt="Logo" className="w-24" />
+            <img
+              src={"/book-shop-logo.png"}
+              alt="Book Shop Logo"
+              className="w-20"
+            />
             <h3 className="text-lg font-bold mb-4">React Book Shop</h3>
             <p>© 2024 Md. Ashraful Haque. All rights reserved.</p>
           </div>
